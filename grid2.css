@@ -1,0 +1,556 @@
+body{
+    background-color: rgba(0, 0, 255, 0.03);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container{
+    width:1200px;
+    height: 900px;
+    margin: 0 auto;
+    border: 4px solid black;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 255, 0.02);
+    
+}
+
+.logo-div{
+    display: flex;
+    gap:10px;
+    padding: 30px;
+}
+
+.logo-div h3{
+    font-weight: bolder;
+    letter-spacing: normal;
+}
+
+.next-top{
+    width: 400px;
+    margin-left: 150px;
+}
+.coming p{
+    font-weight:100;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.lightweight{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.notified h2{
+    font-size: 22px;
+    width: 180px;
+    margin-bottom: 10px;
+}
+
+.email-input{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+   
+}
+
+.email-input > input{
+    border-radius: 4px;
+    border:1px solid rgba(0, 0, 0, 0.3);
+    padding: 6px;
+    font-size: 11px;
+}
+
+.email-input > button{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 11px;
+    padding: 8px 26px 8px 26px;
+}
+
+.socials{
+    display: flex;
+    margin-top: 30px;
+    gap:30px;
+}
+
+.socials > svg{
+    height: 18px;
+    width: 18px;
+    stroke:rgba(0, 0, 0, 0.5) ;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 80px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns:repeat(13, 7%);
+    grid-template-rows: repeat(7, 13%);
+    gap: 20px;
+    
+}
+
+.corner-left{
+    background-color: white;
+    grid-area: 3/1/4/3;
+    height: 50px;
+    
+}
+
+.Marie > h4{
+    font-size: 9px;
+    margin-bottom: 0px;
+   
+    
+}
+
+
+.following{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 9px;
+    gap: 30px;
+    padding: 0 18px 18px 0;
+}
+
+.following > button{
+    font-size: 9px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color:rgba(0, 0, 0, 0.8) ;
+    padding: 1px 3px 1px 3px;
+    width: 60px;
+    border-radius: 3px;
+    background-color: white;
+}
+
+
+.following p{
+    font-size: 8px;
+    padding: 0;
+    margin: 0;
+}
+
+
+.griditems{
+    background-color: white;
+    border-radius: 3px;
+    padding: 20px;
+    gap: 20px;
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    height: 112px;
+    width: 230px;
+}
+
+
+.grid1{
+    gap:15px;
+}
+
+.top-part{
+    display: flex;
+    gap: 15px;
+}
+
+.top-part > img{
+    border-radius: 50px;
+}
+
+
+.location{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.location > p{
+    font-size: 9px;
+}
+
+.location >button{
+    background-color: black;
+    padding: 5px;
+    font-size: 8px;
+    color: white;
+    border: none;
+    width: 40px;
+    border-radius: 3px;
+}
+
+
+.name > h4 {
+    margin-top: 0px;
+    margin-bottom: 0;
+    font-size: 11px;
+}
+
+.name > p{
+    margin-top: 2px;
+    font-size: 9px;
+    margin-bottom: 5px;
+}
+
+.bottom-line{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.bottom-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 9px;
+    margin-bottom: 20px;   
+}
+
+.bottom-img > img{
+    height:10px;
+    width:10px;
+    border-radius: 50px;
+    background-color: white;
+    margin:-3px ;
+}
+
+.bottom-div > p{
+    margin-left: 10px;
+    font-size: 9px;
+}
+
+.intercompany{
+    background-color: white;
+    padding: 15px;
+    border-radius: 2px;
+    grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row-start:1 ;
+    grid-row-end: 5;
+    height: 205px;
+    margin-top: 85px;
+    
+}
+
+.circle{
+  margin-bottom: 0;
+
+}
+
+.intercompany h5{
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.intercompany p{
+    margin-top: 20px;
+    font-size: 9px;
+    letter-spacing: normal;
+}
+
+.circle-icon{
+    fill: #e74c3c;
+    width: 40px;
+    height:40px;
+    
+}
+
+.intercompany >button{
+background-color: black;
+color: white;
+padding: 3px;
+width: 70px;
+align-items: center;
+justify-content: center;
+font-size: 7px;
+border: none;
+border-radius:4px ;
+display: flex;  
+gap: 10px;
+margin-top: 20px;
+}
+
+.mindnode-div{
+    background-color: white;
+    grid-column-start: 8;
+    grid-column-end: 11;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    height: 180px;
+    margin-top: 57px;
+    width: 260px;
+    margin-left: 20px;
+}
+
+.mind-top{
+    display: flex;
+    gap: 30px;
+    padding: 10px;
+    margin-left: 20px;
+
+}
+
+.mind-right > h4{
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-size: 12px;
+}
+
+.mind-right p{
+    font-size: 9px;
+    margin-top: 4px;
+    margin-bottom: 0;
+}
+
+.stars{
+    margin-top: 0;
+}
+
+
+.mind-bottom {
+   justify-content: center; 
+    align-items: center;
+    display: flex; 
+    margin-top: 50px;
+}
+
+.mind-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px 6px 1px 6px;
+    gap: 10px; 
+    font-size: 9px;
+    color: rgb(46, 44, 44);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 3px;
+    width: 90px;
+ }
+
+ .join{
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    grid-column-start:11 ;
+    grid-column-end: 13;
+    grid-row-start: 1;
+    grid-row-end:5 ;
+    height: 180px;
+    margin-top: 80px;
+    width: 100px;
+    
+    
+  
+ } 
+
+ .join-main > input{
+    border:1px  solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    font-size:10px ;
+    width: 118.5px;
+    padding: 5px;
+    margin-bottom: 10px;
+
+ }
+
+.join-main > button{
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    width: 132px;
+    font-size: 11px;
+    padding: 5px;
+}
+
+.Accordion{
+    background-color: white;
+    padding: 20px 20px 0 0;
+    grid-column-start:1 ;
+    grid-column-end:3 ;
+    grid-row-start:4 ;
+    grid-row-end: 7;
+    height: 192px;
+    
+}
+
+.Accordion p{
+    font-size: 10px;
+    margin-top: 0;
+}
+
+.plus-minus{
+    margin-top: 20px;
+    padding: 20px;
+  
+}
+
+.plus-below{
+    width: 130px;
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 1px;
+}
+
+.excellent{
+    background-color: white;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    margin-left: 0;
+    grid-column-start:3;
+    grid-column-end: 7;
+    grid-row-start: 5;
+    grid-row-end:7 ;
+    height: 108px;
+}
+
+.excellent p{
+    font-size: 10px;
+    color:rgba(0, 0, 0, 0.8) ;
+}
+
+.intercom{
+    background-color: #473bf3;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    grid-column-start: 7;
+    grid-column-end:9 ;
+    grid-row-start:5 ;
+    grid-row-end: 7;
+    height: 110px;
+    
+
+}
+
+.dot-svg {
+  text-align: right;
+}
+
+.logo-svg{
+    text-align: center;
+    
+
+}
+
+.intercom-body{
+    margin: 0;
+    
+}
+
+.intercom-body >h4{
+    font-size: 14px;
+    text-align: center;
+    padding:0;
+    margin: 0;
+    margin-top: 5px;
+   
+}
+
+.intercom-body > button{
+    color: white;
+    background-color: rgb(50, 50, 212);
+    border: none;
+    text-transform: uppercase;
+    font-size: 9px;  
+    border-radius: 6px; 
+}
+
+.intercom-body p{
+    margin: 7px;
+    font-size: 11px;
+   
+}
+
+.myrtle{
+    background-color: white;
+    padding:20px;
+    grid-column-start: 9;
+    grid-column-end:12 ;
+    grid-row-start: 5;
+    grid-row-end:7 ;
+    height: 90px;
+  
+  
+}
+
+.myrtle > button{
+    float: right;
+    background-color: black;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    font-size: 10px;
+    padding: 5px 15px 5px 15px;
+   
+}
+
+.myrtle-body{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.myrtle-right{
+    margin-top: 0;
+    
+}
+
+.myrtle-right h4{
+    font-size: 9px;
+    padding-top: 0;
+}
+
+.myrtle-right p{
+    font-size: 7px;
+    
+}
+
+.follow{
+
+}
+
+.three-people{
+    margin-bottom: 10px;
+}
+
+
+.last-grid{
+    background-color: white;
+    padding: 20px;
+    grid-column-start: 12;
+    grid-column-end:13 ;
+    grid-row-start:5 ;
+    grid-row-end: 7;
+    height: 90px;
+    width: 15px;
+}
+
+.last-grid h5{
+    font-size: 11px;
+}
+
+.last-grid svg{
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.last-grid p{
+    font-size: 9px;
+}
+
+.last-grid button{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    font-size: 9px;
+    padding: 5px 20px 5px 20px;
+    float: right;
+    
+}
